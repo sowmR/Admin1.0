@@ -1,3 +1,6 @@
+This is a sample Dashboard screen with various screen sets created in angular 2.
+Download the angular 2 quick start kit and develop based on it. Here is the read me info from the quickstart.
+
 # Angular QuickStart Source
 [![Build Status][travis-badge]][travis-badge-url]
 
