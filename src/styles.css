@@ -1,0 +1,122 @@
+@import url('asset/css/dashboard.css');
+@import url('asset/css/bootstrap.css');
+@import url('asset/css/chart.css');
+
+
+body{
+	background-color: #fbfbfb;
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-weight: 300;   
+ 	line-height: 1.42857143;
+}
+.barchart{
+    display: block;
+    color: #fff;
+    background-color: rgba(255,255,255,0.1);
+    border: 0;
+    border-radius: 7px;
+    position: relative;
+    margin-bottom: 24px;
+    background-color: rgba(251,251,251,0.3);
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.15);
+    max-width: 500px;
+    max-height: 500px;
+
+}
+.barchart.animated {
+    animation-duration: 0.5s;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+@keyframe fadeIn
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+.modal-header {
+  border: none;
+  padding: 10px 15px 0 15px;
+}
+
+.modal-footer {
+  border: none;
+}
+
+button.close {
+  padding-bottom: 2px;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .2;
+}
+button .close:hover {
+    opacity: .5;
+  }
+.modalimg:hover{
+  margin-top:-300px;
+  width:600px;
+  z-index: 9000;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px 3px rgba(88,88,88,0.5);
+}
+/*==================================================
+ * shadow 3
+ * ===============================================*/
+.shadow3
+{
+  position: relative;
+}
+.shadow3:before
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  box-shadow: 0 15px 10px #777;
+  transform: rotate(-3deg);
+}
+.navbar-brand{
+	display:inline-block;
+}
+.page-header{
+	color:#1B4991;
+}
+.page-header small{
+	color:#3C76D2;
+}
+.panel-body{
+	color: #848484;
+}
+.strong-text{
+	font-weight: 500;
+	color:#585858;
+}
+input[type="file"] {
+    font-family: FontAwesome;
+}
+.mini-btn{
+	background-color: #ffffff;
+}
+.mini-text{
+	width:50px;
+	height: 24px;
+	 -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}

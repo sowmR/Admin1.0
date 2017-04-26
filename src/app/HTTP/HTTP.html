@@ -1,0 +1,19 @@
+
+  <div class="container">
+  <h2>CSV Data</h2>
+
+  <div class="col-sm-12">
+    <button class="btn btn1 btn2" (click)="readCsvData()">
+       Click to read CSV Data
+    </button>
+  </div>
+  <br/><br/>
+  <div class="table-responsive">
+     <table class="table table-bordered table-hover">
+      <tbody>
+        <tr *ngFor="let x of csvData">
+            <td *ngFor="let y of x">{{ y }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div></div>

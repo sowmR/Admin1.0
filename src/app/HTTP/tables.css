@@ -1,0 +1,7 @@
+.table-bordered{
+	border:4px inset rgba(88,88,88,0.5);
+}
+.table-bordered  td{
+	border:3px outset rgba(88,88,88,0.5);
+	box-shadow: 0 2px 2px rgba(88,88,88,0.5);
+}

@@ -1,0 +1,24 @@
+<div class="page-wrapper">
+  <div class="container-fluid">
+
+<div class="container">
+<div class="page-header"><h2>Bar Chart</h2></div>
+<div class="row">
+  <div class="col-md-6 col-sm-12">
+    <div style="display:block;" class="barchart">
+    <canvas baseChart width="400" height="400" 
+                [datasets]="barChartData"
+                [labels]="barChartLabels"
+                [options]="barChartOptions"
+                [colors]="barChartColors"
+                [legend]="barChartLegend"
+                [chartType]="barChartType"
+                (chartHover)="chartHovered($event)"
+                (chartClick)="chartClicked($event)"
+                class="animated fadeIn card  with-scroll"
+                ></canvas>
+    </div>
+  </div>
+</div>
+</div>
+</div></div>
